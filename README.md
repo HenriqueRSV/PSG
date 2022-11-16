@@ -23,4 +23,4 @@ this is a project inspired by the psg website, it tends to be a website with the
 
 ## Deploy Project
 
-see the project [here](https://pay-card-five.vercel.app).
+see the project [here](https://psg-rho.vercel.app).
