@@ -20,3 +20,7 @@ This project was developed with the following technologies:
 ## 💻 Project
 
 this is a project inspired by the psg website, it tends to be a website with the team's main news and information.
+
+## Deploy Project
+
+see the project [here](https://pay-card-five.vercel.app).
