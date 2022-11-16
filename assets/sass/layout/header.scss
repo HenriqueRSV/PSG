@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+
+  .Navbar {
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .imgIconPsg {
+      width: 55px;
+    }
+
+    .linksNavbar {
+      
+      ul {
+        display: flex;
+        
+        li {
+          margin-left: 50px;
+        }
+        
+        a {
+          color: $textColors-01;
+          border-bottom: transparent solid;
+
+          &:hover {
+            transition: 0.3s;
+            border-bottom: $textColors-04 solid 2px;
+          }
+        }
+      }
+    }
+
+    .registerNavbar {
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        a {
+          color: $textColors-01;
+          border-bottom: transparent solid;
+
+          &:hover {
+            transition: 0.3s;
+            border-bottom: $textColors-04 solid 2px;
+          }
+        }
+
+        .bntNavbar {
+          padding: 12px 22px;
+          border: transparent;
+          border-radius: 5px;
+          color: $textColors-01;
+          background-color: $buttonColor;
+          cursor: pointer;
+
+          &:hover {
+            transition: 0.3s;
+            background-color: #9b1924;
+          }
+        }
+      }
+    }
+  }
+}
+
+.DropdownMenu {
+  display: none;
+}
+
+.iconMenuDropDown {
+    display: none;
+}

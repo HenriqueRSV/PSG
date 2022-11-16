@@ -1,0 +1,182 @@
+
+.secMatter {
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  padding: 0 290px 0 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+
+  h1 {
+    font-size: 50px;
+    color: $textColors-01;
+  }
+
+  p {
+    font-size: 24px;
+    color: $textColors-01;
+  }
+
+  button {
+    width: 150px;
+    padding: 10px;
+    border: transparent;
+    border-radius: 5px;
+    color: $textColors-01;
+    background-color: $buttonColor;
+    cursor: pointer;
+    margin-top: 20px;
+
+    &:hover {
+      transition: 0.3s;
+      background-color: #9b1924;
+    }
+  }
+}
+
+.sec-gameResult {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  color: $textColors-02;
+
+  .descriptionResult {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    .barra {
+      width: 10px;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .timeImg {
+      width: 100px;
+    }
+
+    p {
+      font-size: 62px;
+    }
+  }
+}
+
+.secParc-welcome {
+  background-color: $backGround;
+  width: 50%;
+  height: 55%;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow: auto;
+
+  h1 {
+    font-size: 32px;
+    border-left: #DA2535 solid;
+    padding-left: 15px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  p {
+    line-height: 170%;
+    font-size: 18px;
+    color: $textColors-03;
+  }
+
+  a {
+    width: 5rem;
+    color: $buttonColor;
+    font-weight: 600;
+  }
+}
+
+.sec-latestNews {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .News {
+    padding: 20px;
+
+    h1 {
+      font-size: 32px;
+      color: $textColors-02;
+      border-left: #DA2535 solid;
+      padding-left: 15px;
+      height: 20px;
+      display: flex;
+      align-items: center; 
+      margin-bottom: 80px; 
+    }
+
+    ul {
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 5rem;
+
+      .listNews {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        cursor: pointer;
+
+        &:hover {
+          transition: 0.2s;
+          color: $textColors-04;
+        }
+
+        h3 {
+          font-size: 14px;
+          color: $textColors-04;
+          display: flex;
+          justify-content: space-between;
+
+          .listNewsSpan {
+            color: $textColors-03;
+          }
+        }
+
+        p {
+          font-size: 20px;
+          max-width: 300px;
+        }
+
+        .imgListNews {
+          width: 320px;
+        }
+      }
+    }
+  }
+
+  .btnNews {
+    padding: 12px 22px;
+    border: transparent;
+    border-radius: 5px;
+    color: $textColors-01;
+    background-color: $buttonColor;
+    cursor: pointer;
+
+    &:hover {
+      transition: 0.3s;
+      background-color: #9b1924;
+    }
+  }
+}  
