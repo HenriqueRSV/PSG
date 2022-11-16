@@ -14,7 +14,7 @@
 
 This project was developed with the following technologies:
 
-- HTML e CSS
+- HTML e CSS/SCSS
 - Bootstrap
 
 ## 💻 Project
